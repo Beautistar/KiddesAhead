@@ -1,7 +1,8 @@
 # KiddesAhead
 
 Pet shop
-•	Dog house is called pet shop 
+
+•	Dog house is called pet shop
 •	Well done page, moving lion and dancing, I mentioned last time the background is too dark. 
 Supermarket:
 •	Grapefruit juice says orange juice 
