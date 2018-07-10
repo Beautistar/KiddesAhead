@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KiddiesAhead' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for KiddiesAhead
+
+
+pod 'IQKeyboardManagerSwift'
+pod 'SwiftyUserDefaults'
+pod 'Alamofire'
+pod 'SVProgressHUD'
+pod 'SwiftyJSON'
+pod 'SwiftyGif'
+pod 'SwiftyStoreKit'
+
+end

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_back" translatesAutoresizingMaskIntoConstraints="NO" id="3ph-h6-j2S">
+                                <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-kP-5Sn">
+                                <rect key="frame" x="84" y="39.999999999999993" width="181" height="127.33333333333331"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sZg-kP-5Sn" secondAttribute="height" multiplier="496:348" id="RGM-cd-XSz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_lion" translatesAutoresizingMaskIntoConstraints="NO" id="9aP-cI-Yp0">
+                                <rect key="frame" x="488" y="3" width="304" height="372"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9aP-cI-Yp0" secondAttribute="height" multiplier="867:1061" id="J59-VA-56M"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sZg-kP-5Sn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="0Sa-qG-P2F"/>
+                            <constraint firstItem="sZg-kP-5Sn" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="2qh-02-a4W"/>
+                            <constraint firstItem="9aP-cI-Yp0" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" constant="-20" id="8RO-gM-0Ro"/>
+                            <constraint firstItem="3ph-h6-j2S" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="8bW-fg-91P"/>
+                            <constraint firstItem="sZg-kP-5Sn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="BHo-l1-Y8x"/>
+                            <constraint firstItem="9aP-cI-Yp0" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="bDE-Tr-WCw"/>
+                            <constraint firstItem="3ph-h6-j2S" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="jtL-er-rLb"/>
+                            <constraint firstAttribute="bottom" secondItem="3ph-h6-j2S" secondAttribute="bottom" id="kVj-Mi-PvE"/>
+                            <constraint firstAttribute="trailing" secondItem="3ph-h6-j2S" secondAttribute="trailing" id="nsB-nd-WLN"/>
+                            <constraint firstItem="9aP-cI-Yp0" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.42" id="s42-ve-bHG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="165" height="116"/>
+        <image name="splash_back" width="812" height="375"/>
+        <image name="splash_lion" width="289" height="353"/>
+    </resources>
+</document>
