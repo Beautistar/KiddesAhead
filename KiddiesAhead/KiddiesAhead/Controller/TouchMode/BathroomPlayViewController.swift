@@ -11,22 +11,22 @@ import UIKit
 class BathroomPlayViewController: TouchPlayViewController {
     
     let WORDS = [
-        "bathroom",        // 0
-        "window",         // 1
-        "mirror",         // 2
-        "bathtub",         // 3
-        "sink",          // 4
-        "toothpaste",         // 5
-        "toothbrush",         // 6
-        "shampoo",     // 7
-        "towel",      // 8
-        "soap",         // 9
-        "duck",            // 10
-        "triangle",      // 11
-        "triangle",      // 12
-        "toilet",         // 13
-        "toilettissue",        // 14
-        "bin"        // 15
+        "bathroom",             // 0
+        "window",               // 1
+        "mirror",               // 2
+        "bathtub",              // 3
+        "sink",                 // 4
+        "toothpaste",           // 5
+        "toothbrush",           // 6
+        "shampoo",              // 7
+        "towel",                // 8
+        "soap",                 // 9
+        "duck",                 // 10
+        "triangle",             // 11
+        "triangle",             // 12
+        "toilet",               // 13
+        //"toilettissue",       // 14 ---> 144
+        "bin"                   // 15 --->14
 
     ]
 

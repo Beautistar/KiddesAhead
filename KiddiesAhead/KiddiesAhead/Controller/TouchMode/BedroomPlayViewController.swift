@@ -11,23 +11,23 @@ import UIKit
 class BedroomPlayViewController: TouchPlayViewController {
     
     let WORDS = [
-        "bedroom",        // 0
-        "bed",         // 1
-        "window",         // 2
-        "rug",         // 3
+        "bedroom",          // 0
+        "bed",              // 1
+        "window",           // 2
+        "rug",              // 3
         "wardrobe",         // 4
-        "clock",        // 5
-        "flower",        // 6
-        "table",          // 7
-        "lamp",         // 8
-        "chair",         // 9
-        "shoes",     // 10
-        "bear",      // 11
-        "socks",          // 12
-        "picture",         // 13
-        "table",        // 14
-        "tv" ,         // 15
-        "flower"          // 16
+        "clock",            // 5
+        "flower",           // 6
+        "table",            // 7
+        "lamp",             // 8
+        "chair",            // 9
+        "shoes",            // 10
+        "bear",             // 11
+        "socks",            // 12
+        "picture",          // 13
+        "table",            // 14
+        "tv" ,              // 15
+        "flower"            // 16
         
     ]
 
