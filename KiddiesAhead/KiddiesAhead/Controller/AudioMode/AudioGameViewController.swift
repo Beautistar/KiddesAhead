@@ -245,8 +245,10 @@ class AudioGameViewController: UIViewController {
         ui_btnPlay.isSelected = !isPaused
         
         if !isPaused {
-            self.playSound()
+            //self.playSound()
             self.next()
+        } else {
+            self.cancelTimer()
         }
     }
     

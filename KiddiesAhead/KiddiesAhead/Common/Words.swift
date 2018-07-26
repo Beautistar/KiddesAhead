@@ -225,8 +225,8 @@ enum WORDS : String, EnumCollection {
     
     // body part 187 ~
     case arm
-    case back_
-    case belly_button
+    //case back_
+    //case belly_button
     case ear
     case elbow
     case eye
@@ -240,16 +240,17 @@ enum WORDS : String, EnumCollection {
     case knee
     case leg
     case lips
-    case mouth
+    //case mouth
     case neck
     case nose
     case shoulder
     case teeth
     case toe
     case tongue
-    case tummy
+    //case tummy
 
     // feeling 211 ~
+    // feeling 207 ~
     case angry
     case bored
     case fine
@@ -260,7 +261,7 @@ enum WORDS : String, EnumCollection {
     case sick
     case tired
 
-    // occupation 220 ~
+    // occupation 216 ~
     case chef
     case doctor
     case firefighter
@@ -271,7 +272,7 @@ enum WORDS : String, EnumCollection {
     case postman
     case teacher
     
-    // classroom 229 ~
+    // classroom 225 ~
     case book
     case chair_
     case classroom_
@@ -293,7 +294,7 @@ enum WORDS : String, EnumCollection {
     case table
 
     
-    // number 248 ~
+    // number 244 ~
     case one
     case two
     case three
@@ -395,7 +396,7 @@ enum WORDS : String, EnumCollection {
     case ninety_nine
     case one_hundred
     
-    //case max    // 348
+    //case max    // 344
 }
 
 let NUMBER_STRING = [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
@@ -413,7 +414,8 @@ let NUMBER_STRING = [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
 
 func categoryValues(category : Int) -> [WORDS] {
     
-    let category_start = [0, 26, 29, 37, 49, 66, 73, 88, 99, 135, 145, 181, 187, 211, 220, 229, 248, 348]
+    //let category_start = [0, 26, 29, 37, 49, 66, 73, 88, 99, 135, 145, 181, 187, 211, 220, 229, 248, 348]
+    let category_start = [0, 26, 29, 37, 49, 66, 73, 88, 99, 135, 145, 181, 187, 207, 216, 225, 244, 344]
     
     var values = [WORDS]()
     
